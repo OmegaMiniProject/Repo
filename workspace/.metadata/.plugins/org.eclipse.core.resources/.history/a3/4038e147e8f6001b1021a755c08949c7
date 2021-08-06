@@ -23,54 +23,13 @@
 				</dependency>
 								  		
   		
-  	
+  		
+  		
+  		
+  		
+  		
+  		
+  		
+  		
   		</dependencies>
-  		
-  		<build>
-  		
-  		<plugins>
-  		
-  		   <plugin>
-  		   
-  		   <groupId>org.apache.maven.plugins</groupId>
-				    <artifactId>maven-complier-pulgin</artifactId>
-				    <version>3.8.1</version>
-				
-				<configuration>
-				<source>1.8</source>
-				<target>1.8</target>
-				</configuration>
-  		   
-  		   </plugin>
-  		   
-  		     <plugin>
-  		   
-  		   <groupId>org.apache.maven.plugins</groupId>
-				    <artifactId>maven-surefire-pulgin</artifactId>
-				    <version>3.0.0-M4</version>
-				
-				<configuration>
-				<suiteXmlFiles>
-				<suiteXmlFile>
-				TestNg.xml
-				</suiteXmlFile>
-				
-				</suiteXmlFiles>
-				</configuration>
-  		   
-  		   </plugin>
-  		
-  		
-  		</plugins>
-  		
-  		
-  		
-  		
-  		</build>
-  		
-  		
-  		
-  		
-  		
-  		
 </project>
