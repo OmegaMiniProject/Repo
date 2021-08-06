@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SampleSuite">
+
+    <test name="SampleTest">
+        <classes>
+           <class name="com.selenium.functionalTest.FirstTest" />
+        </classes>
+    </test>
+    
+        <test name="SampleTest2">
+        <classes>
+           <class name="com.selenium.functionalTest.SecondTest" />
+        </classes>
+    </test>
+    
+</suite>

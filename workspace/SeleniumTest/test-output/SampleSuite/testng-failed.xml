@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SampleSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="SampleTest2(failed)">
+    <classes>
+      <class name="com.selenium.functionalTest.SecondTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="BeforeTest"/>
+          <include name="secondTestcase"/>
+        </methods>
+      </class> <!-- com.selenium.functionalTest.SecondTest -->
+    </classes>
+  </test> <!-- SampleTest2(failed) -->
+</suite> <!-- Failed suite [SampleSuite] -->

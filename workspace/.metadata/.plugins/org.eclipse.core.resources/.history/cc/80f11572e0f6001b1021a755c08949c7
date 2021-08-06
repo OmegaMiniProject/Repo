@@ -1,0 +1,12 @@
+package com.selenium.functionalTest;
+
+import org.openqa.selenium.WebDriver;
+
+public class Solvents {
+	
+	WebDriver driver;
+	
+	
+	//driver=new ChromeDriver();
+
+}
