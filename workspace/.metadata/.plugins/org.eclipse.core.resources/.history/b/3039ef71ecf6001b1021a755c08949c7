@@ -1,13 +1,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="SampleSuite">
 
-    <test name="SampleTest">
+    <test name="SampleTest" parallel="methods">
         <classes>
            <class name="com.selenium.functionalTest.FirstTest" />
         </classes>
     </test>
     
-        <test name="SampleTest2">
+        <test name="SampleTest2" parallel="methods">
         <classes>
            <class name="com.selenium.functionalTest.SecondTest" />
         </classes>
