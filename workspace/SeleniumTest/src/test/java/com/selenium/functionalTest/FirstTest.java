@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class FirstTest extends Solvents {
+public class FirstTest extends BrowserSetup {
 	
 	
 	
@@ -16,8 +16,8 @@ public class FirstTest extends Solvents {
 	  public void BeforeTest()
 	  {
 
-		  
-		// driver=new ChromeDriver();
+		BrowserSetup.setup("Chrome");  
+		
 	  }
 	  
   @Test
@@ -25,7 +25,7 @@ public class FirstTest extends Solvents {
 	  
 	  
 	
-	  System.setProperty("webdriver.chrome.driver","/SeleniumTest/chromedriver.exe");
+	  //System.setProperty("webdriver.chrome.driver","/SeleniumTest/chromedriver.exe");
 	  driver.get("https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java/3.141.59");
 	  driver.close();
 	  
